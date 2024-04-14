@@ -28,3 +28,23 @@ print(f"{guests[2]}, you're invited to my dinner party!")
 print(f"{guests[3]}, you're invited to my dinner party!")
 print(f"{guests[4]}, you're invited to my dinner party!")
 print(f"{guests[5]}, you're invited to my dinner party!\n")
+
+# 3.7 Shrinking Guest List
+print("Sorry, it seems I can only fit two people in my dinner table :(\n")
+
+popped_guest = guests.pop()
+print(f"Sorry {popped_guest}, I can't invite you.")
+popped_guest = guests.pop()
+print(f"Sorry {popped_guest}, I can't invite you.")
+popped_guest = guests.pop()
+print(f"Sorry {popped_guest}, I can't invite you.")
+popped_guest = guests.pop()
+print(f"Sorry {popped_guest}, I can't invite you.")
+
+print(f"\nYou're still invited {guests[0]}!")
+print(f"You're still invited {guests[1]}!\n")
+
+del guests[0]
+del guests[0]
+
+print(guests)
