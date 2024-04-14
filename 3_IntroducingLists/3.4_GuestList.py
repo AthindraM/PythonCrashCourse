@@ -48,3 +48,8 @@ del guests[0]
 del guests[0]
 
 print(guests)
+
+# 3.9 Dinner Guests
+print(len(guests))
+
+
